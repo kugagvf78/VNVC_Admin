@@ -1,0 +1,48 @@
+.box{
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.box .box-info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: white;
+    grid-gap: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+    .box .box-info i {
+        padding: 20px;
+        font-size: 25px;
+    }
+    .box .box-info span {
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+.row.box .col-lg-3:nth-child(1) .box-info span {
+    background-color: #B0E2FF
+}
+.row.box .col-lg-3:nth-child(2) .box-info span {
+    background-color: #FFFBD1;
+}
+.row.box .col-lg-3:nth-child(3) .box-info span {
+    background-color: #C9E4D6; /* Màu cho box thứ 3 */
+}
+.row.box .col-lg-3:nth-child(4) .box-info span {
+    background-color: #ffd3d3; /* Màu cho box thứ 4 */
+}
+.box-info h3 {
+    font-size: 25px;
+    margin-bottom: 4px !important;
+}
+.box-info p {
+    margin-bottom: 4px !important;
+    font-size: 16px;
+}
