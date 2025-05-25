@@ -15,8 +15,11 @@ namespace VNVC_Admin.Controllers
             return PartialView();
         }
 
-
-
+        
+        public IActionResult Appointment_completion_rate()
+        {
+            return PartialView();
+        }
 
     }
 }

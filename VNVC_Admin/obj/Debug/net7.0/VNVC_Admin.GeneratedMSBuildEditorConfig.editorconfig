@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\HUIT\HK6\LTDD\DoAn\VNVC_Admin\VNVC_Admin
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/HUIT/HK6/LTDD/DoAn/VNVC_Admin/VNVC_Admin/Views/Dashboard/Appointment_completion_rate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFwcG9pbnRtZW50X2NvbXBsZXRpb25fcmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/HUIT/HK6/LTDD/DoAn/VNVC_Admin/VNVC_Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
