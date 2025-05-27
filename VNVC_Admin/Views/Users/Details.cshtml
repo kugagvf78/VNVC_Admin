@@ -1,0 +1,172 @@
+﻿@model VNVC_Admin.Models.Users
+
+@{
+    ViewData["Title"] = "Chi tiết người dùng";
+}
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h4 class="fw-bold mb-0">
+                    <span class="text-muted fw-light">Quản lý / Người dùng /</span> Chi tiết
+                </h4>
+                <small class="text-muted">Thông tin chi tiết người dùng</small>
+            </div>
+            <div>
+                <a class="btn btn-label-secondary" asp-action="Index">
+                    <i class="bx bx-arrow-back me-1"></i> Quay lại
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- User Profile Card -->
+            <div class="col-md-4 mb-4">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <span class="avatar-initial">@Model.FullName[0]</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-body">
+                        <!-- Full name -->
+                        <h4 class="profile-name">@Model.FullName</h4>
+
+                        <!-- Gender & Age -->
+                        <div class="profile-meta">
+                            <span class="profile-gender @(Model.Gender == "Nam" ? "male" : "female")">
+                                @Model.Gender
+                            </span>
+                            <span class="profile-age">@Model.Age tuổi</span>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="profile-actions">
+                            <a class="btn-edit" asp-action="Edit" asp-route-id="@Model.UserId">
+                                <i class="bx bx-edit-alt"></i> Sửa
+                            </a>
+                            <a class="btn-delete" asp-action="Delete" asp-route-id="@Model.UserId"
+                               onclick="showDeleteConfirmation(event, '@Model.FullName')">
+                                <i class="bx bx-trash"></i> Xóa
+                            </a>
+                        </div>
+                        
+                        <!-- Contact info -->
+                        <div class="profile-contact">
+                            <div class="contact-item">
+                                <div class="contact-icon phone">
+                                    <i class="bx bx-phone"></i>
+                                </div>
+                                <p class="contact-value">@Model.PhoneNumber</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon email">
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                                <p class="contact-value">@Model.Email</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- User Details -->
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <h5 class="card-header">Thông tin cá nhân</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Ngày sinh</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-calendar me-2"></i>
+                                    <span>@Model.FormattedDateOfBirth</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Nghề nghiệp</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-briefcase me-2"></i>
+                                    <span>@Model.Job</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Số BHYT</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-id-card me-2"></i>
+                                    <span>@Model.NumberBHYT</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Số CCCD</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-card me-2"></i>
+                                    <span>@Model.IdCardNumber</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Dân tộc</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-group me-2"></i>
+                                    <span>@Model.Ethnicity</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label text-muted">Quốc tịch</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-flag me-2"></i>
+                                    <span>@Model.Nationality</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Address Card -->
+                <div class="card">
+                    <h5 class="card-header">Địa chỉ</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label text-muted">Thành phố</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-building-house me-2"></i>
+                                    <span>@Model.City</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label text-muted">Quận/Huyện</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-map me-2"></i>
+                                    <span>@Model.District</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label text-muted">Phường/Xã</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-map-pin me-2"></i>
+                                    <span>@Model.Ward</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label text-muted">Địa chỉ chi tiết</label>
+                                <div class="d-flex align-items-center">
+                                    <i class="bx bx-home me-2"></i>
+                                    <span>@Model.Address</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<link href="~/css/pages/user-profile-card.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="~/js/user-popup.js"></script>
+

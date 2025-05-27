@@ -1,395 +1,403 @@
 {
   "Files": [
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VNVC_Admin.bundle.scp.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VNVC_Admin.bundle.scp.css",
       "PackagePath": "staticwebassets\\VNVC_Admin.bundle.scp.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\core.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\core.css",
       "PackagePath": "staticwebassets\\css\\core.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\demo.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\demo.css",
       "PackagePath": "staticwebassets\\css\\demo.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\dashboard.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\pages\\dashboard.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-account-settings.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-account-settings.css",
       "PackagePath": "staticwebassets\\css\\pages\\page-account-settings.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-auth.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-auth.css",
       "PackagePath": "staticwebassets\\css\\pages\\page-auth.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-icons.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-icons.css",
       "PackagePath": "staticwebassets\\css\\pages\\page-icons.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-misc.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\page-misc.css",
       "PackagePath": "staticwebassets\\css\\pages\\page-misc.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\site.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\pages\\user-profile-card.css",
+      "PackagePath": "staticwebassets\\css\\pages\\user-profile-card.css"
+    },
+    {
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\theme-default.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\css\\theme-default.css",
       "PackagePath": "staticwebassets\\css\\theme-default.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\favicon.ico",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons.css",
       "PackagePath": "staticwebassets\\fonts\\boxicons.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.eot",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.eot",
       "PackagePath": "staticwebassets\\fonts\\boxicons\\boxicons.eot"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.svg",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.svg",
       "PackagePath": "staticwebassets\\fonts\\boxicons\\boxicons.svg"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.ttf",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.ttf",
       "PackagePath": "staticwebassets\\fonts\\boxicons\\boxicons.ttf"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.woff",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.woff",
       "PackagePath": "staticwebassets\\fonts\\boxicons\\boxicons.woff"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.woff2",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\fonts\\boxicons\\boxicons.woff2",
       "PackagePath": "staticwebassets\\fonts\\boxicons\\boxicons.woff2"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\images\\avatar.jpg",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\images\\avatar.jpg",
       "PackagePath": "staticwebassets\\images\\avatar.jpg"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\bootstrap.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\config.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\config.js",
       "PackagePath": "staticwebassets\\js\\config.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\dashboards-analytics.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\dashboards-analytics.js",
       "PackagePath": "staticwebassets\\js\\dashboards-analytics.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\extended-ui-perfect-scrollbar.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\extended-ui-perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\js\\extended-ui-perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\form-basic-inputs.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\form-basic-inputs.js",
       "PackagePath": "staticwebassets\\js\\form-basic-inputs.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\helpers.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\helpers.js",
       "PackagePath": "staticwebassets\\js\\helpers.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\main.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\menu.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\menu.js",
       "PackagePath": "staticwebassets\\js\\menu.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\pages-account-settings-account.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\js\\pages-account-settings-account.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\site.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-modals.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\js\\ui-modals.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-popover.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-popover.js",
       "PackagePath": "staticwebassets\\js\\ui-popover.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-toasts.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\ui-toasts.js",
       "PackagePath": "staticwebassets\\js\\ui-toasts.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\apex-charts\\apex-charts.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\js\\user-popup.js",
+      "PackagePath": "staticwebassets\\js\\user-popup.js"
+    },
+    {
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\apex-charts\\apex-charts.css",
       "PackagePath": "staticwebassets\\lib\\apex-charts\\apex-charts.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\apex-charts\\apexcharts.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\lib\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight-github.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight-github.css",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight-github.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight.css",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\lib\\highlight\\highlight.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\jquery.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\masonry\\masonry.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\lib\\masonry\\masonry.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\lib\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\lib\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\HUIT\\HK6\\LTDD\\DoAn\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\popper\\popper.js",
+      "Id": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\wwwroot\\lib\\popper\\popper.js",
       "PackagePath": "staticwebassets\\lib\\popper\\popper.js"
     },
     {

@@ -1,0 +1,165 @@
+﻿@model IEnumerable<VNVC_Admin.Models.Users>
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+}
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h4 class="fw-bold mb-0">
+                    <span class="text-muted fw-light">Quản lý /</span> Người dùng
+                </h4>
+                <small class="text-muted">Tổng cộng @ViewBag.TotalUsers người dùng</small>
+            </div>
+            <a class="btn btn-primary" asp-action="Create">
+                <i class="bx bx-plus me-1"></i> Thêm mới
+            </a>
+        </div>
+
+        <div class="card" style="min-height: 500px">
+            <div class="card-datatable table-responsive" style="min-height: 500px">
+                <!-- Search and Filters -->
+                <div class="card-header d-flex flex-column flex-md-row justify-content-between align-items-center p-3">
+                    <div class="w-100 mb-2 mb-md-0">
+                        <form asp-action="Index" method="get">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bx bx-search"></i></span>
+                                <input type="text" name="searchString" class="form-control"
+                                       placeholder="Tìm kiếm theo tên, email hoặc số điện thoại..."
+                                       value="@ViewBag.SearchString" />
+                                <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Success Message -->
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible mx-3 mt-3" role="alert">
+                        <i class="bx bx-check-circle me-2"></i> @TempData["SuccessMessage"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <!-- User Table -->
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="min-w-150px">Họ tên</th>
+                            <th>Giới tính</th>
+                            <th>Tuổi</th>
+                            <th>Điện thoại</th>
+                            <th>Email</th>
+                            <th class="text-center">Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        @if (Model != null && Model.Any())
+                        {
+                            @foreach (var user in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar avatar-sm me-2">
+                                                <span class="avatar-initial rounded-circle bg-label-primary">@user.FullName[0]</span>
+                                            </div>
+                                            <div>
+                                                <strong>@user.FullName</strong>
+                                                
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="badge @(user.Gender == "Nam" ? "bg-label-primary" : "bg-label-info")">
+                                            @user.Gender
+                                        </span>
+                                    </td>
+                                    <td>@user.Age</td>
+                                    <td>
+                                        <span class="d-flex align-items-center">
+                                            @user.PhoneNumber
+                                        </span>
+                                    </td>
+                                    <td>@user.Email</td>
+                                    <td class="text-center">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                <i class="bx bx-dots-vertical-rounded"></i>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" asp-action="Details" asp-route-id="@user.UserId">
+                                                    <i class="bx bx-detail me-1"></i> Chi tiết
+                                                </a>
+                                                <a class="dropdown-item" asp-action="Edit" asp-route-id="@user.UserId">
+                                                    <i class="bx bx-edit-alt me-1"></i> Sửa
+                                                </a>
+                                                <a class="dropdown-item" asp-action="Delete" asp-route-id="@user.UserId"
+                                                   onclick="showDeleteConfirmation(event, '@user.FullName')">
+                                                    <i class="bx bx-trash"></i> Xóa
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center py-4">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <i class="bx bx-user-x bx-lg text-muted mb-2"></i>
+                                        <p class="mb-0">Không tìm thấy người dùng nào</p>
+                                        <small class="text-muted">Thử thay đổi từ khóa tìm kiếm hoặc thêm người dùng mới</small>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <!-- Pagination -->
+                @if (ViewBag.TotalPages > 1)
+                {
+                    <div class="card-footer">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item prev @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                    <a class="page-link" asp-action="Index"
+                                       asp-route-page="@(ViewBag.CurrentPage - 1)"
+                                       asp-route-searchString="@ViewBag.SearchString">
+                                        <i class="tf-icon bx bx-chevron-left"></i>
+                                    </a>
+                                </li>
+
+                                @for (var i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                                        <a class="page-link" asp-action="Index"
+                                           asp-route-page="@i"
+                                           asp-route-searchString="@ViewBag.SearchString">@i</a>
+                                    </li>
+                                }
+
+                                <li class="page-item next @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                                    <a class="page-link" asp-action="Index"
+                                       asp-route-page="@(ViewBag.CurrentPage + 1)"
+                                       asp-route-searchString="@ViewBag.SearchString">
+                                        <i class="tf-icon bx bx-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="~/js/user-popup.js"></script>

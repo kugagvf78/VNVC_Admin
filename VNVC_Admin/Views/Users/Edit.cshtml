@@ -1,0 +1,98 @@
+﻿@model VNVC_Admin.Models.Users
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h4 class="fw-bold mb-0">
+                    <span class="text-muted fw-light">Quản lý / Người dùng /</span> Chỉnh sửa
+                </h4>
+                <small class="text-muted">Cập nhật thông tin người dùng</small>
+            </div>
+            <a class="btn btn-label-secondary" asp-action="Index">
+                <i class="bx bx-arrow-back me-1"></i> Quay lại
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <form id="editForm" asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="UserId" />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="FullName" class="form-label">HỌ TÊN</label>
+                                <input asp-for="FullName" class="form-control" />
+                                <span asp-validation-for="FullName" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="Gender" class="form-label">GIỚI TÍNH</label>
+                                <select asp-for="Gender" class="form-select">
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                    <option value="Khác">Khác</option>
+                                </select>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="DateOfBirth" class="form-label">NGÀY SINH</label>
+                                <input asp-for="DateOfBirth" type="date" class="form-control" />
+                                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="PhoneNumber" class="form-label">SĐT</label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="Job" class="form-label">NGHỀ NGHIỆP</label>
+                                <input asp-for="Job" class="form-control" />
+                                <span asp-validation-for="Job" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="NumberBHYT" class="form-label">SỐ BHYT</label>
+                                <input asp-for="NumberBHYT" class="form-control" />
+                                <span asp-validation-for="NumberBHYT" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="IdCardNumber" class="form-label">Số CCCD/CMND</label>
+                                <input asp-for="IdCardNumber" class="form-control" />
+                                <span asp-validation-for="IdCardNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-end gap-2">
+                                <button type="button" class="btn btn-label-secondary" onclick="history.back()">
+                                    <i class="bx bx-x me-1"></i> Hủy
+                                </button>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="bx bx-save me-1"></i> Lưu thay đổi
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
