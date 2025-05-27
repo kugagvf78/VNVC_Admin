@@ -55,14 +55,9 @@
         </div>
 
         <!-- Total Revenue -->
-        <div class="col-9 col-lg-9 order-2 order-md-3 order-lg-2 mb-4 ">
-            <div class="card p-4">
-                <div class="row row-bordered g-0">
-                    <canvas id="salesChart" width="800" height="400"></canvas>
-                </div>
-            </div>
-        </div>
-        <div class="col-3 col-lg-3 order-2 order-md-3 order-lg-2 mb-4 ">
+        @Html.Partial("Revenue_Chart")
+        
+        <div class="col-4 col-lg-4 order-2 order-md-3 order-lg-2 mb-4 ">
             <div class="card p-4">
                 @Html.Partial("Appointment_completion_rate")
             </div>
@@ -333,116 +328,3 @@
 <script src="~/js/main.js?v=@DateTime.Now.Ticks"></script>     
 <script src="~/js/dashboards-analytics.js?v=@DateTime.Now.Ticks"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Dữ liệu tĩnh cho 12 tháng
-        const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-        const vaccineSold = [150, 180, 200, 160, 220, 190, 210, 170, 200, 230, 250, 270]; // Số lượng vắc xin bán được
-        const revenue = [500000, 600000, 700000, 550000, 800000, 650000, 750000, 600000, 700000, 850000, 900000, 950000]; // Doanh thu (VNĐ)
-
-        // Lấy context của canvas
-        const ctx = document.getElementById('salesChart').getContext('2d');
-        if (!ctx) {
-            console.error('Canvas element with id "salesChart" not found!');
-            return;
-        }
-
-        // Vẽ biểu đồ
-        new Chart(ctx, {
-            type: 'bar', // Sử dụng bar làm mặc định
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'Số lượng Vaccine bán được',
-                        data: vaccineSold,
-                        backgroundColor: 'rgb(241, 147, 115)', // Tím nhạt
-                        borderColor: 'rgb(241, 147, 115)',
-                        borderWidth: 1,
-                        barPercentage: 0.5, // Rộng cột
-                        categoryPercentage: 0.8,
-                        yAxisID: 'y' // Trục y bên trái cho số lượng
-                    },
-                    {
-                        type: 'line', // Sử dụng line cho doanh thu
-                        label: 'Doanh thu (VNĐ)',
-                        data: revenue,
-                        borderColor: 'rgba(255, 206, 86, 1)', // Vàng
-                        backgroundColor: 'rgba(255, 206, 86, 0.2)',
-                        fill: false,
-                        tension: 0.4, // Đường cong mượt mà
-                        pointRadius: 5,
-                        pointBackgroundColor: 'rgba(255, 206, 86, 1)',
-                        yAxisID: 'y1' // Trục y bên phải cho doanh thu
-                    }
-                ]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        position: 'left',
-                        title: {
-                            display: true,
-                            text: 'Số lượng Vaccine',
-                            font: {
-                                size: 16
-                            }
-                        },
-                        ticks: {
-                            stepSize: 50 // Bước nhảy cho số lượng
-                        }
-                    },
-                    y1: {
-                        beginAtZero: true,
-                        position: 'right',
-                        title: {
-                            display: true,
-                            text: 'Doanh thu (VNĐ)',
-                            font: {
-                                size: 16
-                            }
-                        },
-                        ticks: {
-                            callback: function (value) {
-                                return value.toLocaleString('vi-VN') + ' VNĐ';
-                            }
-                        },
-                        grid: {
-                            drawOnChartArea: false // Không vẽ lưới cho trục này để tránh chồng lấn
-                        }
-                    },
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Tháng',
-                            font: {
-                                size: 16
-                            }
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        labels: {
-                            font: {
-                                size: 14
-                            }
-                        }
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function (context) {
-                                if (context.dataset.label === 'Số lượng Vaccine bán được') {
-                                    return context.dataset.label + ': ' + context.parsed.y;
-                                } else {
-                                    return context.dataset.label + ': ' + context.parsed.y.toLocaleString('vi-VN') + ' VNĐ';
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    });
-</script>

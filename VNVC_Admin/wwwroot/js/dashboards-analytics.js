@@ -14,89 +14,147 @@
 
   // Total Revenue Report Chart - Bar Chart
   // --------------------------------------------------------------------
-    
+        document.addEventListener('DOMContentLoaded', function () {
+        // Dữ liệu tĩnh cho 12 tháng
+        const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        const vaccineSold = [150, 180, 200, 160, 220, 190, 210, 170, 200, 230, 250, 270]; // Số lượng vắc xin bán được
+        const revenue = [500000, 600000, 700000, 550000, 800000, 650000, 750000, 600000, 700000, 850000, 900000, 950000]; // Doanh thu (VNĐ)
 
-  // Growth Chart - Radial Bar Chart
-  // --------------------------------------------------------------------
-  const growthChartEl = document.querySelector('#growthChart'),
-    growthChartOptions = {
-      series: [78],
-      labels: ['Growth'],
-      chart: {
-        height: 240,
-        type: 'radialBar'
-      },
-      plotOptions: {
-        radialBar: {
-          size: 150,
-          offsetY: 10,
-          startAngle: -150,
-          endAngle: 150,
-          hollow: {
-            size: '55%'
-          },
-          track: {
-            background: cardColor,
-            strokeWidth: '100%'
-          },
-          dataLabels: {
-            name: {
-              offsetY: 15,
-              color: headingColor,
-              fontSize: '15px',
-              fontWeight: '600',
-              fontFamily: 'Public Sans'
+        // Lấy context của canvas
+        const ctx = document.getElementById('salesChart').getContext('2d');
+        if (!ctx) {
+            console.error('Canvas element with id "salesChart" not found!');
+        return;
+        }
+
+        // Vẽ biểu đồ
+        new Chart(ctx, {
+            type: 'bar', // Sử dụng bar làm mặc định
+        data: {
+            labels: labels,
+        datasets: [
+        {
+            label: 'Số lượng Vaccine bán được',
+        data: vaccineSold,
+        backgroundColor: 'rgb(241, 147, 115)', // Tím nhạt
+        borderColor: 'rgb(241, 147, 115)',
+        borderWidth: 1,
+        barPercentage: 0.5, // Rộng cột
+        categoryPercentage: 0.8,
+        yAxisID: 'y' // Trục y bên trái cho số lượng
+                    },
+        {
+            type: 'line', // Sử dụng line cho doanh thu
+        label: 'Doanh thu (VNĐ)',
+        data: revenue,
+        borderColor: 'rgba(255, 206, 86, 1)', // Vàng
+        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+        fill: false,
+        tension: 0.4, // Đường cong mượt mà
+        pointRadius: 5,
+        pointBackgroundColor: 'rgba(255, 206, 86, 1)',
+        yAxisID: 'y1' // Trục y bên phải cho doanh thu
+                    }
+        ]
             },
-            value: {
-              offsetY: -25,
-              color: headingColor,
-              fontSize: '22px',
-              fontWeight: '500',
-              fontFamily: 'Public Sans'
+        options: {
+            scales: {
+            y: {
+            beginAtZero: true,
+        position: 'left',
+        title: {
+            display: true,
+        text: 'Số lượng Vaccine',
+        font: {
+            size: 16
+                            }
+                        },
+        ticks: {
+            stepSize: 50 // Bước nhảy cho số lượng
+                        }
+                    },
+        y1: {
+            beginAtZero: true,
+        position: 'right',
+        title: {
+            display: true,
+        text: 'Doanh thu (VNĐ)',
+        font: {
+            size: 16
+                            }
+                        },
+        ticks: {
+            callback: function (value) {
+                                return value.toLocaleString('vi-VN') + ' VNĐ';
+                            }
+                        },
+        grid: {
+            drawOnChartArea: false // Không vẽ lưới cho trục này để tránh chồng lấn
+                        }
+                    },
+        x: {
+            title: {
+            display: true,
+        text: 'Tháng',
+        font: {
+            size: 16
+                            }
+                        }
+                    }
+                },
+        plugins: {
+            legend: {
+            labels: {
+            font: {
+            size: 14
+                            }
+                        }
+                    },
+        tooltip: {
+            callbacks: {
+            label: function (context) {
+                                if (context.dataset.label === 'Số lượng Vaccine bán được') {
+                                    return context.dataset.label + ': ' + context.parsed.y;
+                                } else {
+                                    return context.dataset.label + ': ' + context.parsed.y.toLocaleString('vi-VN') + ' VNĐ';
+                                }
+                            }
+                        }
+                    }
+                }
             }
-          }
-        }
-      },
-      colors: [config.colors.primary],
-      fill: {
-        type: 'gradient',
-        gradient: {
-          shade: 'dark',
-          shadeIntensity: 0.5,
-          gradientToColors: [config.colors.primary],
-          inverseColors: true,
-          opacityFrom: 1,
-          opacityTo: 0.6,
-          stops: [30, 70, 100]
-        }
-      },
-      stroke: {
-        dashArray: 5
-      },
-      grid: {
-        padding: {
-          top: -35,
-          bottom: -10
-        }
-      },
-      states: {
-        hover: {
-          filter: {
-            type: 'none'
-          }
-        },
-        active: {
-          filter: {
-            type: 'none'
-          }
-        }
-      }
-    };
-  if (typeof growthChartEl !== undefined && growthChartEl !== null) {
-    const growthChart = new ApexCharts(growthChartEl, growthChartOptions);
-    growthChart.render();
-  }
+        });
+    });
 
+  // Appointment completion rate - Char
+  // --------------------------------------------------------------------
+        const completionRate = 90;
+
+        const completionRateData = {
+            datasets: [{
+            data: [completionRate, 100 - completionRate],
+        backgroundColor: ['#3b82f6', '#e5e7eb'],
+        borderWidth: 0,
+
+        circumference: 360,
+        rotation: 0         
+            }]
+        };
+
+        new Chart(document.getElementById('completionRateChart'), {
+            type: 'doughnut', // Đây đã là kiểu biểu đồ vòng tròn
+        data: completionRateData,
+        options: {
+            responsive: true,
+        aspectRatio: 1, // Thay đổi tỷ lệ khung hình thành 1:1 cho hình tròn hoàn hảo
+        cutout: '80%',  // Kích thước của lỗ ở giữa
+        plugins: {
+            legend: {display: false }, // Ẩn chú giải
+        tooltip: {enabled: false }, // Ẩn tooltip khi di chuột vào
+                   
+                },
+            }
+        });
   // Profit Report Line Chart
   // --------------------------------------------------------------------
   const profileReportChartEl = document.querySelector('#profileReportChart'),

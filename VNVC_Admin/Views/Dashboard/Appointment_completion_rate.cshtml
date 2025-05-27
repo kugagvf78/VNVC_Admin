@@ -1,69 +1,10 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thống kê VNVC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .chart-container {
-            max-width: 350px;
-            margin: 20px 0;
-        }
-
-        .warning-table {
-            margin-top: 20px;
-        }
-
-        .static-table {
-            margin-top: 20px;
-        }
-
-        .gauge-container {
-            position: relative;
-            max-width: 200px;
-            margin: 0 auto;
-        }
-
-        .gauge-label {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-            .gauge-label h5 {
-                font-size: 1.5rem;
-                margin: 0;
-            }
-
-            .gauge-label p {
-                font-size: 0.9rem;
-                margin: 0;
-            }
-
-        .gauge-stats {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 10px;
-        }
-
-            .gauge-stats div {
-                display: flex;
-                align-items: center;
-                gap: 5px;
-            }
-    </style>
-</head>
-<body>
+﻿
     <div class="container mt-4">
 
         <!-- Tỷ lệ hoàn thành lịch hẹn (Biểu đồ gauge) -->
         <div class="mb-4">
             <div style="height: 278px;">
-                <h5>Tỷ lệ hoàn thành lịch hẹn</h5>
+                <h5 class="title-chart">Tỷ lệ hoàn thành lịch hẹn</h5>
                 <div class="gauge-container">
                     <canvas id="completionRateChart"></canvas>
                     <div class="gauge-label">
@@ -77,35 +18,4 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-       
-        const completionRate = 90; 
-
-        const completionRateData = {
-            datasets: [{
-                data: [completionRate, 100 - completionRate],
-                backgroundColor: ['#3b82f6', '#e5e7eb'], 
-                borderWidth: 0,
-                
-                circumference: 360, 
-                rotation: 0         
-            }]
-        };
-
-        new Chart(document.getElementById('completionRateChart'), {
-            type: 'doughnut', // Đây đã là kiểu biểu đồ vòng tròn
-            data: completionRateData,
-            options: {
-                responsive: true,
-                aspectRatio: 1, // Thay đổi tỷ lệ khung hình thành 1:1 cho hình tròn hoàn hảo
-                cutout: '80%',  // Kích thước của lỗ ở giữa
-                plugins: {
-                    legend: { display: false }, // Ẩn chú giải
-                    tooltip: { enabled: false }, // Ẩn tooltip khi di chuột vào
-                   
-                },
-            }
-        });
-    </script>
-</body>
-</html>
+<script src="~/js/dashboards-analytics.js?v=@DateTime.Now.Ticks"></script>
