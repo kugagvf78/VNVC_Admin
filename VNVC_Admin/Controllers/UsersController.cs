@@ -123,95 +123,110 @@ namespace VNVC_Admin.Controllers
 			return View(user);
 		}
 
-		// GET: Form sửa người dùng
-		public IActionResult Edit(string id)
-		{
-			if (string.IsNullOrEmpty(id))
-				return NotFound();
+        // GET: Form sửa người dùng
+        public IActionResult Edit(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+                return NotFound();
 
-			var user = users.FirstOrDefault(u => u.UserId == id);
-			if (user == null)
-				return NotFound();
+            var user = users.FirstOrDefault(u => u.UserId == id);
+            if (user == null)
+                return NotFound();
 
-			return View(user);
-		}
+            return View(user);
+        }
 
-		// POST: Cập nhật người dùng
-		[HttpPost]
-		[ValidateAntiForgeryToken]
-		public IActionResult Edit(Users user)
-		{
-			if (ModelState.IsValid)
-			{
-				var existingUser = users.FirstOrDefault(u => u.UserId == user.UserId);
-				if (existingUser == null)
-					return NotFound();
+        // POST: Cập nhật người dùng
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Users user)
+        {
+            if (ModelState.IsValid)
+            {
+                var existingUser = users.FirstOrDefault(u => u.UserId == user.UserId);
+                if (existingUser == null)
+                    return NotFound();
 
-				// Kiểm tra email đã tồn tại (trừ user hiện tại)
-				if (users.Any(u => u.Email == user.Email && u.UserId != user.UserId))
-				{
-					ModelState.AddModelError("Email", "Email này đã được sử dụng.");
-					return View(user);
-				}
+                // Kiểm tra email đã tồn tại (trừ user hiện tại)
+                if (users.Any(u => u.Email == user.Email && u.UserId != user.UserId))
+                {
+                    ModelState.AddModelError("Email", "Email này đã được sử dụng.");
+                    return Json(new { status = "error", message = "Email này đã được sử dụng." });
+                }
 
-				// Kiểm tra số điện thoại đã tồn tại (trừ user hiện tại)
-				if (users.Any(u => u.PhoneNumber == user.PhoneNumber && u.UserId != user.UserId))
-				{
-					ModelState.AddModelError("PhoneNumber", "Số điện thoại này đã được sử dụng.");
-					return View(user);
-				}
+                // Kiểm tra số điện thoại đã tồn tại (trừ user hiện tại)
+                if (users.Any(u => u.PhoneNumber == user.PhoneNumber && u.UserId != user.UserId))
+                {
+                    ModelState.AddModelError("PhoneNumber", "Số điện thoại này đã được sử dụng.");
+                    return Json(new { status = "error", message = "Số điện thoại này đã được sử dụng." });
+                }
 
-				// Cập nhật thông tin
-				existingUser.FullName = user.FullName;
-				existingUser.Gender = user.Gender;
-				existingUser.Job = user.Job;
-				existingUser.DateOfBirth = user.DateOfBirth;
-				existingUser.PhoneNumber = user.PhoneNumber;
-				existingUser.NumberBHYT = user.NumberBHYT;
-				existingUser.Email = user.Email;
-				existingUser.City = user.City;
-				existingUser.District = user.District;
-				existingUser.Ward = user.Ward;
-				existingUser.Address = user.Address;
-				existingUser.IdCardNumber = user.IdCardNumber;
-				existingUser.Ethnicity = user.Ethnicity;
-				existingUser.Nationality = user.Nationality;
+                // Cập nhật thông tin
+                existingUser.FullName = user.FullName;
+                existingUser.Gender = user.Gender;
+                existingUser.Job = user.Job;
+                existingUser.DateOfBirth = user.DateOfBirth;
+                existingUser.PhoneNumber = user.PhoneNumber;
+                existingUser.NumberBHYT = user.NumberBHYT;
+                existingUser.Email = user.Email;
+                existingUser.City = user.City;
+                existingUser.District = user.District;
+                existingUser.Ward = user.Ward;
+                existingUser.Address = user.Address;
+                existingUser.IdCardNumber = user.IdCardNumber;
+                existingUser.Ethnicity = user.Ethnicity;
+                existingUser.Nationality = user.Nationality;
 
-				TempData["SuccessMessage"] = "Cập nhật thông tin thành công!";
-				return RedirectToAction("Index");
-			}
-			return View(user);
-		}
+                return Json(new { status = "success", message = "Cập nhật thông tin thành công!" });
+            }
 
-		// GET: Xác nhận xóa người dùng
-		public IActionResult Delete(string id)
-		{
-			if (string.IsNullOrEmpty(id))
-				return NotFound();
+            // Nếu ModelState không hợp lệ, trả về lỗi
+            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+            return Json(new { status = "error", message = errors.FirstOrDefault() ?? "Dữ liệu không hợp lệ." });
+        }
 
-			var user = users.FirstOrDefault(u => u.UserId == id);
-			if (user == null)
-				return NotFound();
+        // GET: Xác nhận xóa người dùng
+        public IActionResult Delete(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+                return NotFound();
 
-			return View(user);
-		}
+            var user = users.FirstOrDefault(u => u.UserId == id);
+            if (user == null)
+                return NotFound();
 
-		// POST: Xóa người dùng
-		[HttpPost, ActionName("Delete")]
-		[ValidateAntiForgeryToken]
-		public IActionResult DeleteConfirmed(string id)
-		{
-			var user = users.FirstOrDefault(u => u.UserId == id);
-			if (user == null)
-				return NotFound();
+            return View(user);
+        }
 
-			users.Remove(user);
-			TempData["SuccessMessage"] = "Xóa người dùng thành công!";
-			return RedirectToAction("Index");
-		}
+        [HttpPost]
+        [Route("Users/DeleteConfirmed/{id}")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(string id)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(id))
+                    return Json(new { status = "error", message = "ID người dùng không hợp lệ." });
 
-		// API: Tìm kiếm người dùng (AJAX)
-		[HttpGet]
+                var user = users.FirstOrDefault(u => u.UserId == id);
+                if (user == null)
+                    return Json(new { status = "error", message = "Người dùng không tồn tại." });
+
+                users.Remove(user);
+
+                // Có thể thêm logic lưu vào database ở đây nếu cần
+                // await _context.SaveChangesAsync();
+
+                return Json(new { status = "success", message = "Người dùng đã được xóa thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { status = "error", message = "Đã có lỗi xảy ra: " + ex.Message });
+            }
+        }
+
+        // API: Tìm kiếm người dùng (AJAX)
+        [HttpGet]
 		public IActionResult SearchUsers(string term)
 		{
 			var results = users

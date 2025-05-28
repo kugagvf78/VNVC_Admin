@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|f:\\0_trungkien\\flutter\\medihub\\web-admin\\vnvc_admin\\vnvc_admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4140CD47-085B-44B2-8720-872D970BF888}|VNVC_Admin\\VNVC_Admin.csproj|solutionrelative:vnvc_admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "VNVC_Admin\\Models\\Users.cs",
+              "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Models\\Users.cs",
+              "RelativeToolTip": "VNVC_Admin\\Models\\Users.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:29:56.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VNVC_Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VNVC_Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAADwv38AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T07:09:02.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "VNVC_Admin\\Views\\Users\\Create.cshtml",
               "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Create.cshtml",
               "RelativeToolTip": "VNVC_Admin\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwC4AAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T16:17:06.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "VNVC_Admin\\Views\\Users\\Edit.cshtml",
               "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Edit.cshtml",
               "RelativeToolTip": "VNVC_Admin\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2kAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T16:05:29.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "VNVC_Admin\\Views\\Users\\Details.cshtml",
               "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Details.cshtml",
               "RelativeToolTip": "VNVC_Admin\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAADwv+kAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T14:18:47.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "VNVC_Admin\\Views\\Users\\Index.cshtml",
               "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Views\\Users\\Index.cshtml",
               "RelativeToolTip": "VNVC_Admin\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T14:00:11.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "VNVC_Admin\\Controllers\\UsersController.cs",
               "ToolTip": "F:\\0_TRUNGKIEN\\Flutter\\MEDIHUB\\web-admin\\VNVC_Admin\\VNVC_Admin\\Controllers\\UsersController.cs",
               "RelativeToolTip": "VNVC_Admin\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowG0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwBoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T13:55:28.031Z",
               "EditorCaption": ""

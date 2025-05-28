@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VNVC_Admin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d651f5f331e1d031598363196ea5912d613698cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4005c3066e4d38dc6eca3e8800760094fd5e19f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VNVC_Admin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VNVC_Admin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
